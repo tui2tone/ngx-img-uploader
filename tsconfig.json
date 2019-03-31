@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-image-uploader": [
+        "dist/ngx-image-uploader"
+      ],
+      "ngx-image-uploader/*": [
+        "dist/ngx-image-uploader/*"
+      ]
+    }
   }
 }
